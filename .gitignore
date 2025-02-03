@@ -1,8 +1,12 @@
 *.js
 !jest.config.js
 *.d.ts
+
 node_modules
 
-# CDK asset staging directory
+!lib/canary-script/nodejs/node_modules/
+lib/canary-script/nodejs/node_modules/*
+!lib/canary-script/nodejs/node_modules/index.js
+
 .cdk.staging
 cdk.out
